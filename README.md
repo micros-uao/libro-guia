@@ -1,5 +1,9 @@
 # Initial page
 
+```text
+gitbook install
+```
+
 ## Getting Super Powers
 
 Becoming a super hero is a fairly straight forward process:
