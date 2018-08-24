@@ -5,6 +5,7 @@
 * [El procesamiento digital de señales](el-procesamiento-digital-de-senales.md)
 * [El procesador digital de señales](el-procesador-digital-de-senales.md)
 * [Caso de Estudio 1](caso-de-estudio-1.md)
+  * [PLANO](PLANO1.md)
 * [Caso de Estudio 2](caso-de-estudio-2.md)
 * [Caso de Estudio 3](caso-de-estudio-3.md)
 * [Plataforma de apoyo para las practicas](plataforma-de-apoyo-para-las-practicas.md)
