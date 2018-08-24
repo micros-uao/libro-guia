@@ -1,10 +1,3 @@
----
-description: >-
-  El propósito de este material es contribuir a la comprensión de aspectos
-  importantes que pueden afectar el desarrollo de Aplicaciones de Procesamiento
-  Digital de Señales con Microprocesadores.
----
-
 # Introducción
 
 Una señal se puede definir como una secuencia de valores asociados a una magnitud, durante el procesamiento digital de señales se toman muestras de estos valores para generar un análisis de los mismos o para modificarlos, utilizando para ello un procesador implementado con sistemas digitales.
