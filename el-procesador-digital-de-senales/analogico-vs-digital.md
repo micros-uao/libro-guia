@@ -1,2 +1,2 @@
-# Analógico vs digital
+# 3.1 Analógico vs digital
 

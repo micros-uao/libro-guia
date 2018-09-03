@@ -1,2 +1,2 @@
-# Cómo funciona el microprocesador?
+# 3.4 ¿Cómo funciona el microprocesador?
 

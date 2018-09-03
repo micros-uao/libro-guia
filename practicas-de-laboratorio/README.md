@@ -1,2 +1,2 @@
-# Prácticas de laboratorio
+# 7. Prácticas de laboratorio
 

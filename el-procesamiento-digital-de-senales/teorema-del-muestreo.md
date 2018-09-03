@@ -1,2 +1,2 @@
-# Teorema del muestreo
+# 2.6 Teorema del muestreo
 

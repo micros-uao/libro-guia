@@ -1,2 +1,2 @@
-# Caracterización de las señales
+# 2.2 Caracterización de las señales
 

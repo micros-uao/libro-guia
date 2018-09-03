@@ -1,2 +1,2 @@
-# Punto fijo y punto flotante
+# 7.4 Punto fijo y punto flotante
 

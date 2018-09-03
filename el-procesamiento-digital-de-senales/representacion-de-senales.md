@@ -1,2 +1,2 @@
-# Representación de señales
+# 2.3 Representación de señales
 

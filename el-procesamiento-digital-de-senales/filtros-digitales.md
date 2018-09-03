@@ -1,2 +1,2 @@
-# Filtros digitales
+# 2.7 Filtros digitales
 

@@ -1,2 +1,2 @@
-# Introducción a la computadora
+# 3.2 Introducción a la computadora
 
