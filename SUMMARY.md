@@ -30,8 +30,9 @@
 * [6. Plataforma de apoyo para las practicas](plataforma-de-apoyo-para-las-practicas/README.md)
   * [6.1 Planos plataforma](plataforma-de-apoyo-para-las-practicas/planos-plataforma.md)
 * [7. Prácticas de laboratorio](practicas-de-laboratorio/README.md)
-  * [7.1 Fase linear y no linear en filtros](practicas-de-laboratorio/fase-linear-y-no-linear-en-filtros.md)
-  * [7.2 Retrasos en sistemas de control](practicas-de-laboratorio/retrasos-en-sistemas-de-control.md)
-  * [7.3 Paso por valor y por referencia](practicas-de-laboratorio/paso-por-valor-y-por-referencia.md)
-  * [7.4 Punto fijo y punto flotante](practicas-de-laboratorio/punto-fijo-y-punto-flotante.md)
+  * [7. Filtro primer orden](practicas-de-laboratorio/7.-filtro-primer-orden.md)
+  * [7. Fase linear y no linear en filtros](practicas-de-laboratorio/fase-linear-y-no-linear-en-filtros.md)
+  * [7. Retrasos en sistemas de control](practicas-de-laboratorio/retrasos-en-sistemas-de-control.md)
+  * [7. Paso por valor y por referencia](practicas-de-laboratorio/paso-por-valor-y-por-referencia.md)
+  * [7. Punto fijo y punto flotante](practicas-de-laboratorio/punto-fijo-y-punto-flotante.md)
 

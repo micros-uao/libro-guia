@@ -1,2 +1,2 @@
-# 7.3 Paso por valor y por referencia
+# 7. Paso por valor y por referencia
 

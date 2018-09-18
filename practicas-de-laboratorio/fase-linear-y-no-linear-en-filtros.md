@@ -1,2 +1,2 @@
-# 7.1 Fase linear y no linear en filtros
+# 7. Fase linear y no linear en filtros
 

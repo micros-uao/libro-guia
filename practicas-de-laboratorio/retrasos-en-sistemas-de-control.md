@@ -1,2 +1,2 @@
-# 7.2 Retrasos en sistemas de control
+# 7. Retrasos en sistemas de control
 
