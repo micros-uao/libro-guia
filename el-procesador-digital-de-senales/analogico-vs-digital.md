@@ -4,13 +4,13 @@
 
 Las señales a procesar en los casos de las aplicaciones propuestas son de origen analógico, por tal razón es necesario convertirlas en un formato digital.
 
-![](../.gitbook/assets/image%20%2830%29.png)
+![](../.gitbook/assets/image%20%2839%29.png)
 
 ## Teorema del muestro
 
 Una de los aspectos más importantes en el tratamiento digital de señales análogas está relacionado con la velocidad a la cual se toman muestras de la señal análoga, esta se encuentra definida por el Teorema del muestreo, el cual establece que:
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%285%29.png)
 
 En donde es la frecuencia de muestreo de la señal análoga, y es la frecuencia del armónico de más alta frecuencia que contiene la señal análoga a procesar.
 
@@ -22,7 +22,7 @@ Uno de los métodos utilizados para realizar la representación de la magnitud a
 
 La relación señal / ruido de cuantificación \(SQNR, signal to quantization noise ratio\) proporciona la relación entre la potencia de la señal y la del ruido introducido por el proceso de cuantificación, esta se define como:
 
-![](../.gitbook/assets/image%20%2829%29.png)
+![](../.gitbook/assets/image%20%2838%29.png)
 
 Donde representa la cantidad de bits que se utilizan para representar la señal análoga en forma digital. Se puede apreciar que cada vez que se duplica el número de niveles de cuantificación \(se agrega un bit a la representación de la señal\), la SQNR aumenta aproximadamente 6 dB. Por lo cual, si se utiliza un conversor de 16 bits la SQNR será aproximadamente de 96 dB.
 
@@ -40,7 +40,7 @@ Al comparar las representación en punto fijo y punto flotante se obtienen las s
 
 La forma general de la relación de entrada-salida en un sistema Lineal e Invariante con el Tiempo \(LTI\) es la siguiente:
 
-![](../.gitbook/assets/image%20%2827%29.png)
+![](../.gitbook/assets/image%20%2835%29.png)
 
 Siendo x,y la entrada y salida del sistema respectivamente, a y b  los coeficientes de la función de transferencia que relaciona la salida y la entrada del sistema.
 
@@ -51,7 +51,7 @@ Otra forma de representar los sistemas discretos lineales e invariantes con el t
 Dependiendo de los valores de los coeficientes a y b los sistemas se pueden clasificar en dos grupos:  
 
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 
 Existen diversas estructuras para representar la estructura de sistemas FIR e IIR, entre ellas tenemos:
 
@@ -65,7 +65,7 @@ La forma en cascada es más robusta ante la presencia de cuantificación de los 
 
 La estructura en cascada se obtiene factorizando la respuesta impulsional H\(z\)
 
-![Estructura de sistemas discretos en forma de cascada](../.gitbook/assets/image%20%2813%29.png)
+![Estructura de sistemas discretos en forma de cascada](../.gitbook/assets/image%20%2815%29.png)
 
 
 
