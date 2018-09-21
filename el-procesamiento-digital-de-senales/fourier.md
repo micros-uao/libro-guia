@@ -4,7 +4,7 @@ Uno de los métodos de movilización de la señal x\(t\) es bajo la forma de sum
 
 Si se analiza la señal X en el eje de las frecuencias, la función x\(f\) representa el espectro de la señal; en este caso suele usarse un espectro complejo para poder representar la fase.
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![](../.gitbook/assets/image%20%2825%29.png)
 
 
 
