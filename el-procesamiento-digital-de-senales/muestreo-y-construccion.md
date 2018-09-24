@@ -1,4 +1,4 @@
 # 2.5 Muestreo y construcción
 
-![](../.gitbook/assets/image%20%2820%29.png)
+![](../.gitbook/assets/image%20%2827%29.png)
 
