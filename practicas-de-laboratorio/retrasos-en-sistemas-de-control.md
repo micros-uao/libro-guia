@@ -91,7 +91,7 @@ Se emuló el sistema haciendo uso de 2 arduinos Due , uno como planta discreta y
 
 El sistema se comporta de una forma muy aproximada a la simulación que se hizo previamente, se puede evidenciar la importancia de tener en cuenta los retrasos en la comunicación como parámetro para el diseño de sistemas de control en plantas de respuesta rápida. 
 
-Los Códigos en arduino y simulaciones en simulink se pueden encontrar en el siguiente link:
+Los Códigos en arduino y simulaciones en simulink se pueden encontrar en el siguiente link, tener en cuenta que para que funcione el archivo de simulink primero se debe correr el código de matlab que se llama región de estabilidad :
 
 {% embed data="{\"url\":\"https://github.com/micros-uao/codigos/tree/master/Retrasos%20en%20sistemas%20de%20control \",\"type\":\"link\",\"title\":\"micros-uao/codigos\",\"description\":\"Contribute to micros-uao/codigos development by creating an account on GitHub.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars3.githubusercontent.com/u/40005563?s=400&v=4\",\"width\":420,\"height\":420,\"aspectRatio\":1}}" %}
 
