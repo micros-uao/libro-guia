@@ -81,6 +81,17 @@ Analizando un caso extremo donde el sistema tenga un retraso igual al tiempo de 
 
 ![Respuesta en lazo cerrado sin retraso osea m=0](../.gitbook/assets/image%20%2836%29.png)
 
-Se puede observar que el sistema presenta un sobre-pico mucho mas pronunciado y que tarda ,mas de 1 segundo en estabilizarse. Estos comportamientos no son permitidos al momento de implementar un proceso industrial.   
+Se puede observar que el sistema presenta un sobre-pico mucho mas pronunciado y que tarda ,mas de 1 segundo en estabilizarse. Estos comportamientos no son permitidos al momento de implementar un proceso industrial. 
 
+Se emuló el sistema haciendo uso de 2 arduinos Due , uno como planta discreta y el otro como controlador PI, apoyándose en las salidas y entradas digitales se montó el lazo de control y se observó el comportamiento del sistema en un osciloscopio digital. 
+
+![Respuesta en el osciloscopio para un sistema sin retraso m=1 ](../.gitbook/assets/map001.png)
+
+![Respuesta en el osciloscopio para un sistema con retraso de m=0.1 ](../.gitbook/assets/map002.png)
+
+El sistema se comporta de una forma muy aproximada a la simulación que se hizo previamente, se puede evidenciar la importancia de tener en cuenta los retrasos en la comunicación como parámetro para el diseño de sistemas de control en plantas de respuesta rápida. 
+
+Los Códigos en arduino y simulaciones en simulink se pueden encontrar en el siguiente link:
+
+{% embed data="{\"url\":\"https://github.com/micros-uao/codigos/tree/master/Retrasos%20en%20sistemas%20de%20control \",\"type\":\"link\",\"title\":\"micros-uao/codigos\",\"description\":\"Contribute to micros-uao/codigos development by creating an account on GitHub.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars3.githubusercontent.com/u/40005563?s=400&v=4\",\"width\":420,\"height\":420,\"aspectRatio\":1}}" %}
 
