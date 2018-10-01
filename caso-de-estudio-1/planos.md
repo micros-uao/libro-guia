@@ -6,7 +6,13 @@ Se construyó un prototipo de un proyector de film de 35 mm con mdf de 5.5 mm de
 
 Primero se monta en la base la caja que contiene la electrónica requerida para la construcción del prototipo
 
-![Montaje de la electr&#xF3;nica del prototipo](../.gitbook/assets/image%20%2831%29.png)
+![Montaje de la electr&#xF3;nica del prototipo](../.gitbook/assets/image%20%2832%29.png)
 
+Después se procede a agregar al ensamble la tabla de la mitad donde se van a ir agregando los mecanismos y demás elementos. Y se agregan los elementos reciclados.
 
+![Montaje de los lentes y la fuente de luz](../.gitbook/assets/image%20%2828%29.png)
+
+Se procede a agregar la base del motor , el motor y la transmisión por poleas.
+
+![Motor y transmisi&#xF3;n por poleas](../.gitbook/assets/image%20%2836%29.png)
 
