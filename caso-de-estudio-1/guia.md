@@ -6,7 +6,7 @@ Un proyector de film es un dispositivo opto-mecánico que se utiliza para reprod
 
 El cinematógrafo fue patentado en febrero de 1894 por los hermanos Lumière y las primeras exhibiciones públicas se realizaron en 1895. En la actualidad existen "proyectores cinematográficos digitales" que proyectan una imagen generada por medios digitales, sin hacer uso de una película, pero sí del haz de luz y de las lentes.
 
-![Proyector de 35mm](../.gitbook/assets/image%20%2870%29.png)
+![Proyector de 35mm](../.gitbook/assets/image%20%2871%29.png)
 
 De acuerdo con la teoría de la persistencia retiniana, el proceso perceptible del cerebro y la retina del ojo humano retiene una imagen durante un breve lapso de tiempo. Esta teoría explica como se percibe la ilusión del movimiento cuando una serie de imágenes se muestran en rápida sucesión, en lugar de percibir cada imagen individual de la serie.
 
@@ -63,7 +63,7 @@ Para el funcionamiento de los lentes se utiliza un espejo cóncavo que invierta 
 
 El sistema mecánico esta compuesto por uno o varios rodillos conducidos , dependiendo del modelo pueden haber mas de un rodillo conductor y un sistema basado en una transmisión por correa para el enrollado de la cinta. Debido a que se debe desplazar una distancia exacta\(la medida de un fotograma 36mm\) cada cierto periodo de tiempo\(24 fps=0.041 segundos para cada fotograma \) esto se hace utilizando un sistema mecánico conocido como cruz de malta.
 
-![Mecanismo cruz de malta](../.gitbook/assets/image%20%2867%29.png)
+![Mecanismo cruz de malta](../.gitbook/assets/image%20%2868%29.png)
 
 Este sistema transforma un movimiento rotacional continuo a un movimiento rotacional pulsante o intermitente, de manera que los rodillos conductores están diseñados con unos pines que arrastran las perforaciones en la cinta y fueron diseñados para que 1/4 de vuelta del rodillo desplace la distancia de un fotograma, Lo que quiere decir que cada 4 vueltas del disco de freno son iguales a 1 vuelta del rodillo conductor\(contador intermitente\). 
 

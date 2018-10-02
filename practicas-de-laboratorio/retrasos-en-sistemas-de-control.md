@@ -15,11 +15,11 @@ El NCS considerado presenta las siguientes suposiciones:
 
 Entonces el sistema de control en lazo cerrado se representa de la siguiente forma:
 
-![Diagrama de bloque del sistema a trabajar](../.gitbook/assets/image%20%2822%29.png)
+![Diagrama de bloque del sistema a trabajar](../.gitbook/assets/image%20%2823%29.png)
 
 Debido a que el sistema esta sincronizado se puede considerar los retrasos en el sistema como un solo retraso:
 
-![Diagrama de bloque simplificado del sistema a trabajar](../.gitbook/assets/image%20%2847%29.png)
+![Diagrama de bloque simplificado del sistema a trabajar](../.gitbook/assets/image%20%2848%29.png)
 
 El retraso se puede modelar como $$ e^{-TrS}$$, con $$ T_r=(1-m)T_s$$. Donde $$ T_r$$ representa la suma de los retrasos entre medidor\_controlador y controlador-actuador y m es un valor que representa el porcentaje del tiempo de muestreo al que equivale el tiempo de retraso.
 
@@ -42,12 +42,12 @@ $$
 Para este caso donde se va a analizar un sistema de primer orden se tiene $$ Gp_{(s)}= \frac {K}{T_pS+1}$$;  por lo tanto:
 
 $$
-Gp'_{(Z,m)}=\frac KZ[1-\frac {e^{\frac {-mT_m}{T_p}}(z-1)}{z-e^{\frac {T_m}{T_p}})}]
+Gp'_{(Z,m)}=\frac KZ[1-\frac {e^{\frac {-mT_m}{T_p}}(z-1)}{z-e^{-\frac {T_m}{T_p}})}]
 $$
 
 Para este caso se caracterizo un motor DC el cual se aproximo a una planta de primer orden para los fines de esta practica.
 
-![Respuesta en voltaje ante una entrada de 1v DC](../.gitbook/assets/image%20%2828%29.png)
+![Respuesta en voltaje ante una entrada de 1v DC](../.gitbook/assets/image%20%2829%29.png)
 
 La función de transferencia encontrada es la siguiente:
 
@@ -69,17 +69,17 @@ $$
 
 Se calcula el Ki y Kp para un tiempo de estabilización no mayor a 0.3 segundos y un sobrepico menor al 10%. Con lo cual se obtuvo kp=4.266 y ki=51.39. La respuesta del sistema discreto cuando no hay retraso es:
 
-![Respuesta en lazo cerrado sin retraso osea m=1](../.gitbook/assets/image%20%2862%29.png)
+![Respuesta en lazo cerrado sin retraso osea m=1](../.gitbook/assets/image%20%2863%29.png)
 
 Y con el retraso propuesto de 3.33 segundos :
 
-![Respuesta en lazo cerrado sin retraso osea m=0.83335](../.gitbook/assets/image%20%2866%29.png)
+![Respuesta en lazo cerrado sin retraso osea m=0.83335](../.gitbook/assets/image%20%2867%29.png)
 
 Se puede observar que el retraso producido en la comunicación es suficiente para producir que se incumpla la restricción para el sobre-pico.
 
 Analizando un caso extremo donde el sistema tenga un retraso igual al tiempo de muestreo osea m=0, se observa la siguiente respuesta:
 
-![Respuesta en lazo cerrado sin retraso osea m=0](../.gitbook/assets/image%20%2845%29.png)
+![Respuesta en lazo cerrado sin retraso osea m=0](../.gitbook/assets/image%20%2846%29.png)
 
 Se puede observar que el sistema presenta un sobre-pico mucho mas pronunciado y que tarda ,mas de 1 segundo en estabilizarse. Estos comportamientos no son permitidos al momento de implementar un proceso industrial. 
 

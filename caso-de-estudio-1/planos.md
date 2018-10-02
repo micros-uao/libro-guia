@@ -6,21 +6,21 @@ Se construyó un prototipo de un proyector de film de 35 mm con mdf de 5.5 mm de
 
 Primero se monta en la base la caja que contiene la electrónica requerida para la construcción del prototipo
 
-![Montaje de la electr&#xF3;nica del prototipo](../.gitbook/assets/image%20%2834%29.png)
+![Montaje de la electr&#xF3;nica del prototipo](../.gitbook/assets/image%20%2835%29.png)
 
 Después se procede a agregar al ensamble la tabla de la mitad donde se van a ir agregando los mecanismos y demás elementos. Y se agregan los elementos reciclados.
 
-![Montaje de los lentes y la fuente de luz](../.gitbook/assets/image%20%2830%29.png)
+![Montaje de los lentes y la fuente de luz](../.gitbook/assets/image%20%2831%29.png)
 
 Se procede a agregar la base del motor , el motor y la transmisión por poleas.
 
-![Motor y transmisi&#xF3;n por poleas](../.gitbook/assets/image%20%2839%29.png)
+![Motor y transmisi&#xF3;n por poleas](../.gitbook/assets/image%20%2840%29.png)
 
 Se agrega el mecanismo de cruz de malta que convierte el movimiento rotacional continuo a uno rotacional pulsante o intermitente.
 
  
 
-![Sistema cruz de malta](../.gitbook/assets/image%20%2842%29.png)
+![Sistema cruz de malta](../.gitbook/assets/image%20%2843%29.png)
 
 Se colocan unos rodillos finamente pulidos para que sirvan de guía de la cinta sin generar mucho rozamiento.
 
@@ -28,11 +28,11 @@ Se colocan unos rodillos finamente pulidos para que sirvan de guía de la cinta 
 
 Se ponen los carretes donde va la cinta  y donde se va a enrollar después de ser reproducida.
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![](../.gitbook/assets/image%20%2825%29.png)
 
 Por ultimo se agrega la polea que enrolla la cinta reproducida y se pone la otra tapa.
 
-![Polea encargada de enrollar la cinta](../.gitbook/assets/image%20%2835%29.png)
+![Polea encargada de enrollar la cinta](../.gitbook/assets/image%20%2836%29.png)
 
 Los planos para corte láser se pueden encontrar en el siguiente enlace:
 
