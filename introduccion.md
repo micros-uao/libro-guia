@@ -17,9 +17,9 @@ Ventajas del procesamiento digital de señales respecto al procesamiento analóg
 * Realizar operaciones matemáticas sobre señales analógicas resulta mas complejo de realizar que si se hicieran en un sistema digital, ademas de que este ultimo permite efectuar las operaciones necesarias de modo rutinario haciendo uso de un software.
 * En algunos casos es mas económico implementar el procesamiento de una señal usando un sistema digital, esto ademas del costo de los componentes se debe a la flexibilidad al momento de realizar modificaciones.
 
-El comportamiento de una señal dada puede catalogarse como transitorio o de estado estacionario. Una señal en estado estacionario exhibe periodicidad y por tanto puede ser considerada como el resultado de la suma de funciones periódicas. En el siguiente gráfico se puede observar una señal la cual se reconstruye con sus 3 primeros armónicos, con esto se puede aclarar el concepto de que una señal periódica se puede representar por la suma infinita de sus componentes armónicas y que entre mayor numero de armónicos se use para reconstruir la señal mayor va a ser la aproximación a la señal original.
+El comportamiento de una señal dada puede catalogarse como transitorio o de estado estacionario. Una señal en estado estacionario exhibe periodicidad y por tanto puede ser considerada como el resultado de la suma de funciones periódicas. En el siguiente gráfico se puede observar una señal la cual se reconstruye con sus primeros armónicos, con esto se puede aclarar el concepto de que una señal periódica se puede representar por la suma infinita de sus componentes armónicas y que entre mayor numero de armónicos se use para reconstruir la señal mayor va a ser la aproximación a la señal original.
 
-![](.gitbook/assets/image%20%2810%29.png)
+![](.gitbook/assets/image%20%2873%29.png)
 
 Cuando una señal se propaga a través de un sistema genera un efecto en sus salidas, transformación que depende de las características del sistema, las cuales, en el caso de sistemas lineales, están determinadas por su respuesta en amplitud y su respuesta en fase, las cuales indican la transformación que sufre un armónico al propagarse a través del sistema.
 
