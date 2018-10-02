@@ -8,7 +8,7 @@ Las soluciones propuestas a este interrogante llevaron al concepto de microproce
 
 La integración del microprocesador con el resto de elementos necesarios para desarrollar una aplicación se denomina computadora, y de manera general está compuesta de los siguientes elementos:
 
-![Diagrama b&#xE1;sico de una computadora](../.gitbook/assets/image%20%284%29.png)
+![Diagrama b&#xE1;sico de una computadora](../.gitbook/assets/image%20%285%29.png)
 
 *  Microprocesador. Administra toda la actividad dentro de la computadora. Se encarga de ejecutar las instrucciones almacenadas en la memoria de programa, procesar la información y establecer la comunicación entre el resto de los dispositivos de la computadora.
 * Circuito Generador de la señal de reloj. Se encarga de suministrar la señal que impulsa las máquinas de estado que componen la unidad de control del microprocesador y de los demás componentes de la computadora.

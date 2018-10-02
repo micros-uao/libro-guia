@@ -1,6 +1,6 @@
 # 3.4 ¿Cómo funciona el microprocesador?
 
-![](../.gitbook/assets/image%20%2840%29.png)
+![](../.gitbook/assets/image%20%2844%29.png)
 
-![](../.gitbook/assets/image%20%2827%29.png)
+![](../.gitbook/assets/image%20%2831%29.png)
 
