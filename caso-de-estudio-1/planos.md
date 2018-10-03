@@ -14,13 +14,13 @@ Después se procede a agregar al ensamble la tabla de la mitad donde se van a ir
 
 Se procede a agregar la base del motor , el motor y la transmisión por poleas.
 
-![Motor y transmisi&#xF3;n por poleas](../.gitbook/assets/image%20%2847%29.png)
+![Motor y transmisi&#xF3;n por poleas](../.gitbook/assets/image%20%2848%29.png)
 
 Se agrega el mecanismo de cruz de malta que convierte el movimiento rotacional continuo a uno rotacional pulsante o intermitente.
 
  
 
-![Sistema cruz de malta](../.gitbook/assets/image%20%2850%29.png)
+![Sistema cruz de malta](../.gitbook/assets/image%20%2851%29.png)
 
 Se colocan unos rodillos finamente pulidos para que sirvan de guía de la cinta sin generar mucho rozamiento.
 

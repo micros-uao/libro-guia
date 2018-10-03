@@ -8,7 +8,7 @@ Primero se incluyen las librerías necesarias y se inicializan todas las variabl
 // Incluir las librerias del LCD y de temporizadores
 #include <LiquidCrystal.h>
 #include <DueTimer.h>
- 
+
 // Inicializar libreria LCD con sus pines
 LiquidCrystal lcd(7, 8, 9, 10, 11, 12);
 
@@ -65,7 +65,7 @@ lcd.print("Press");
        //pinMode(a, INPUT);
   // Se inicializa la entrada b para los datos del encoder     
       pinMode(b, INPUT);
-  
+
   // Se crea una temporizador que cada 100 ms llame la funcion myHandler   
       Timer3.attachInterrupt(myHandler);
   // Timer3.setFrequency(10);
@@ -83,7 +83,6 @@ lcd.print("Press");
        digitalWrite(3, LOW);
        digitalWrite(2, HIGH);   
 }
-
 ```
 
 La función para la interrupción se encarga de contar los pulsos del encoder.
@@ -91,7 +90,7 @@ La función para la interrupción se encarga de contar los pulsos del encoder.
 ```cpp
 //Funcion de la interrupcion externa
 void ServicioBoton() 
-   
+
    { 
     //Contador de pulsos del pin a
     contador++ ;
@@ -200,6 +199,4 @@ void loop() {
 El código completo lo encuentran en el siguiente link del repositorio.
 
 {% embed data="{\"url\":\"https://github.com/micros-uao/codigos/tree/master/Control-proyector\",\"type\":\"link\",\"title\":\"micros-uao/codigos\",\"description\":\"Contribute to micros-uao/codigos development by creating an account on GitHub.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://github.com/fluidicon.png\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://avatars3.githubusercontent.com/u/40005563?s=400&v=4\",\"width\":420,\"height\":420,\"aspectRatio\":1}}" %}
-
-
 
