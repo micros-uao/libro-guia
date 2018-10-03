@@ -41,7 +41,7 @@ double outmotor=0; // Salida al motor
 
 Después se procede a inicializar el hardware que va a manejar el microprocesador como lo son el puerto serie, los pines digitales , los temporizadores y el LCD.
 
-```text
+```cpp
 void setup() {
 // Se inicializa el puerto serial
 Serial.begin(115200);
@@ -88,7 +88,7 @@ lcd.print("Press");
 
 La función para la interrupción se encarga de contar los pulsos del encoder.
 
-```text
+```cpp
 //Funcion de la interrupcion externa
 void ServicioBoton() 
    
@@ -104,7 +104,7 @@ void ServicioBoton()
 
 La función asociada con el temporizador para muestrear el sistema cada 100 ms.
 
-```text
+```cpp
 //Funcion de la interrupcion cuando se desborda el temporizador
 void myHandler(){
      //Se calcula el numero de revoluciones por minuto
@@ -118,7 +118,7 @@ void myHandler(){
 
 Algoritmo de control PID básico , para este caso en especial se hace cero la parte derivativa y se implementa un algoritmo PI
 
-```text
+```cpp
 //Algoritmo de control PID
  void PID()
    {  
@@ -139,7 +139,7 @@ Algoritmo de control PID básico , para este caso en especial se hace cero la pa
 
 Por ultimo la parte de código del loop encargada de realizar la rutina programada de una forma cíclica e indefinida. Aqui se encuentra la parte de la interfaz con el usuario mediante el LCD , las entradas digitales para la interfaz y la salida de PWM al motor.
 
-```text
+```cpp
 void loop() {
 // Se pone el cursor en la columna0 y la fila 1 del lcd  
   lcd.setCursor(0, 1);
