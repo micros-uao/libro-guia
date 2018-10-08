@@ -250,3 +250,83 @@ void loop() {
 } 
 ```
 
+### Código en Python para gráficar los datos:
+
+Primero se importan las librerías necesarias, pueden utilizar el pip para instalar las que no tengas. El Código se realizó en python 2.7 para trabajar en raspberry pi 3.
+
+```python
+# Se importan las librerias
+from ttk import *
+from Tkinter import *
+from threading import Thread
+import serial
+import time
+import collections
+import matplotlib.pyplot as plt
+import matplotlib.animation as animation
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2TkAgg
+import Tkinter as Tk
+from ttk import Frame
+
+```
+
+Para realizar el programa se utilizó una clase llamada serialPlot la cual se modificó para el caso de estudio, los métodos que se utilizaron de la clase son los siguientes:
+
+Metodo \_\_init\_\_ es el encargado de inicializar los valores de las variables que utilizan los métodos
+
+```python
+#Metodo que inicializa la clase , recibe unos argumentos necesarios para establecer la comunicacion
+def __init__(self, master, figure, serialPort , serialBaud , plotLength , dataNumBytes ):
+     global ax
+     #Se inicia la clase Frame para usar sus widgets posteriormente
+     Frame.__init__(self, master)
+     #Las siguientes son Variables que sirven para la ejecucion de los metodos de la clase serialPlot
+     self.port = serialPort
+     self.baud = serialBaud
+     self.plotMaxLength = plotLength
+     self.dataNumBytes = dataNumBytes
+     #Se crea un arreglo de bytes para recibir los datos leidos por el serial
+     self.rawData = bytearray(dataNumBytes)
+     self.data = collections.deque([0] * plotLength, maxlen=plotLength)
+     self.isRun = True
+     self.isReceiving = False
+     self.thread = None
+     self.plotTimer = 0
+     self.previousTimer = 0
+     self.dtemp=0
+     self.dsp=0
+     self.dpulse=0
+     self.decg=0
+     self.demg=0
+     self.dgsr=0
+     self.valor1 = 0
+     self.valor2 = 0
+     self.valor3 = 0
+     self.numero = 0
+     #Se agregan los wigets a la interfaz
+     self.pack()
+     #Se crean los widgets
+     self.createWidgets()
+     self.entry = None
+     self.setPoint = None
+     self.master = master  # a reference to the master window
+     #SE activa la caracteristica del fig para que cuando se presiones Esc se cierre el programa
+     self.master.bind("<Escape>", exit)
+     #Se guardan el ancho y alto del monitor
+     w, h = self.master.winfo_screenwidth(), self.master.winfo_screenheight()
+     # use the next line if you also want to get rid of the titlebar
+     # self.master.overrideredirect(1)
+     #Se le dan las medidas a la ventana del programa
+     self.master.geometry("%dx%d+0+0" % (w, h))
+     #Se inicializa la ventana y se le pasa por parametro la grafica
+     self.initWindow(figure)  # initialize the window with our settings
+
+     print('Trying to connect to: ' + str(serialPort) + ' at ' + str(serialBaud) + ' BAUD.')
+     #SE crea la intancia para el puerto Serial
+     try:
+         self.serialConnection = serial.Serial(serialPort, serialBaud, timeout=4)
+         print('Connected to ' + str(serialPort) + ' at ' + str(serialBaud) + ' BAUD.')
+     except:
+         print("Failed to connect with " + str(serialPort) + ' at ' + str(serialBaud) + ' BAUD.')
+```
+
