@@ -12,14 +12,18 @@ Luego se sujetan las plataformas a la base con tornillos M3 y se agrega un inter
 
 Se le agregan conectores jack 3.5 tipo hembra y se tapa la caja con la electrónica , para esto se utilizaron tornillos autorroscantes en las esquinas de la tapa.
 
-![Ensamblaje con las entradas para los sensores](../.gitbook/assets/image%20%2873%29.png)
+![Ensamblaje con las entradas para los sensores](../.gitbook/assets/image%20%2874%29.png)
 
   
-Se arma la tapa superior de la misma forma como se armo la caja donde va la electrónica y se utilizan unas bisagras para fijar las 2 estructuras.
+Se arma la tapa superior de la misma forma como se armo la caja donde va la electrónica y se utilizan unas bisagras para fijar las 2 estructuras. Vale la pena resaltar que las piezas impresas se encuentran en el repositorio y se llaman tacos, las resaltadas en la figura son tacos2 y son un poco mas largos para permitir que la tapa superior se mantenga firme cuando se levante la tapa superior.
 
-![Ensamblaje con la tapa superior incompleta](../.gitbook/assets/image%20%2856%29.png)
+![](../.gitbook/assets/image%20%2856%29.png)
 
-Por ultimo se arma el subensamble donde va la pantalla y se une a la estructura principal
+Por ultimo se arma el sub-ensamble donde va la pantalla y se une a la estructura principal
 
 ![Ensamblaje final](../.gitbook/assets/image%20%2853%29.png)
+
+Las piezas para corte e impresión se encuentran en el siguiente enlace:
+
+{% embed url="https://github.com/micros-uao/Monitor-ehealth/tree/master/Monitor%20solid/ensamblaje/manufactura" %}
 

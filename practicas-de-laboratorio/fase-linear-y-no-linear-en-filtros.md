@@ -12,9 +12,9 @@ Haciendo uso de la herramienta sptool de matlab se desarrollan 2 filtros, uno ti
 
 Podemos concluir que la señal en la gráfica FIR filter se aproxima a la señal result signal de la gráfica anterior esto se debe a que la respuesta en fase de este filtro es linear. Para el caso de la gráfica IIR filter si se puede notar que la forma de la onda se ve afectada, en las partes marcada y se alcanza a detallar que algunos picos presentes en la señal cambiaron su amplitud con respecto a la señal original, esto se debe a que la respuesta en fase es no linear y en este caso para componentes cercanas a 300 Hz el desfase es lo suficientemente grande como para afectar la forma de onda al momento de que el filtro realice el procesamiento de la señal. El proceso de reconstrucción que hace el filtro toma cada componente de la señal original y la desfasa un valor de acuerdo a la respuesta en fase del filtro, en las siguientes gráficas se pueden observar los valores de desfase para cada componente según el filtro utilizado.
 
-![Respuesta en fase del filtro FIR](../.gitbook/assets/image%20%2862%29.png)
+![Respuesta en fase del filtro FIR](../.gitbook/assets/image%20%2863%29.png)
 
-![Respuesta en fase del filtro FIR](../.gitbook/assets/image%20%2870%29.png)
+![Respuesta en fase del filtro FIR](../.gitbook/assets/image%20%2871%29.png)
 
 De manera que las ecuaciones resultantes serian las siguientes, donde yfir es la salida para el filtro FIR con ventana haming y la salida yiir sería la salida para el filtro IIR elíptico; a ambas señales se les suma un valor de 500 al final con la finalidad de que la señal esté compuesta por valores positivos y al momento de llevarlo a implementación sea más fácil poder reconstruirla con ayuda de un DAC\(digital-analog converter\). Se debe tener en cuenta que estas ecuaciones aplican para este caso particular donde las componentes en frecuencias no se ven afectadas por la reducción en magnitud que realiza el filtro de manera que es una aproximación bastante cercana a la salida del filtro.
 
@@ -34,15 +34,15 @@ Un caso práctico al momento de trabajar filtros digitales son las señales biol
 
 En las siguientes figuras se puede observar la respuesta en magnitud\(dB\) y en fase respectivamente del filtro pasa-baja tipo FIR con ventana Hamming de orden 60 a una frecuencia de muestreo de 500 Hz y una frecuencia de corte de 45 Hz.
 
-![Respuesta en magnitud del filtro FIR](../.gitbook/assets/image%20%2866%29.png)
+![Respuesta en magnitud del filtro FIR](../.gitbook/assets/image%20%2867%29.png)
 
 ![Respuesta en fase del filtro FIR](../.gitbook/assets/image%20%2852%29.png)
 
 En las siguientes figuras se puede observar la respuesta en magnitud\(dB\) y en fase respectivamente del filtro pasa-baja tipo IIR elíptico de orden 7 a una frecuencia de muestreo de 500 Hz y una frecuencia de corte de 45 Hz. Se elige la frecuencia de corte a 45 Hz para que la reducción de la magnitud de la componente a 60 Hz se reduzca completamente.
 
-![Respuesta en magnitud del filtro IIR](../.gitbook/assets/image%20%2865%29.png)
+![Respuesta en magnitud del filtro IIR](../.gitbook/assets/image%20%2866%29.png)
 
-![Respuesta en fase del filtro IIR](../.gitbook/assets/image%20%2880%29.png)
+![Respuesta en fase del filtro IIR](../.gitbook/assets/image%20%2881%29.png)
 
 Con los filtros creados se procede a mirar la respuesta de cada uno ante la señal ECG con el ruido de la red. En el siguiente gráfico se puede comparar la señal ECG pura y con ruido vs la señal filtrada utilizando el filtro con ventana haming y el filtro elíptico.
 
@@ -50,7 +50,7 @@ Con los filtros creados se procede a mirar la respuesta de cada uno ante la señ
 
 Si se observa detalladamente la señal ECG filtrada usan el filtro eliptico la parte marcada en la imagen muestra un cambio en la forma de la onda lo cual puede ocasionar errores en la toma de decisiones de un médico al momento de diagnosticar. Este cambio ocurre debido a que el filtro IIR elíptico presenta un comportamiento en fase no linear de forma que las componentes de la señal después de ser filtrada se desfasan y la no linealidad del filtro genera deformaciones en la señal reconstruida.
 
-![Se&#xF1;al ECG filtrada utilizando el filtro IIR](../.gitbook/assets/image%20%2874%29.png)
+![Se&#xF1;al ECG filtrada utilizando el filtro IIR](../.gitbook/assets/image%20%2875%29.png)
 
 Lo siguiente es implementar los 2 filtros en un microcontrolador y observar la respuesta de cada uno ante una señal ECG con ruido de 60 Hz. Para esta práctica se generó la señal ECG con un Arduino Due para poder aprovechar el conversor DAC que este trae integrado , también se utilizó otro Arduino del mismo tipo para montar los filtros.
 
@@ -61,7 +61,7 @@ Después de implementar el código para el filtro FIR se utilizó un osciloscopi
 Para el otro caso se implementó en el Arduino Due el filtro IIR elíptico, la respuesta del filtro es bastante aproximada a la simulada incluso presenta la deformación de la onda en la parte marcada.  
 
 
-![Resultado de implementar el filtro IIR](../.gitbook/assets/image%20%2863%29.png)
+![Resultado de implementar el filtro IIR](../.gitbook/assets/image%20%2864%29.png)
 
 En conclusión se puede decir que al momento de trabajar un señal biológica es muy importante tener en cuenta que información es de interés en este tipo de señal, porque si el profesional está interesado en analizar la forma de la onda, un filtro de fase no linear\(filtro IIR\) inevitablemente producirá deformaciones en la onda; aunque si se consigue que las componentes de la señal reconstruida estén en la parte aproximadamente lineal de la respuesta en fase se puede reconstruir la señal de una forma muy aproximada a la deseada; pero para evitar complicaciones resulta más sencillo implementar un filtro de fase linear\(filtro FIR\). En cambio en señales físicas como temperatura, presión, nivel donde se necesita extraer información como voltaje o frecuencia y no se necesita información de la forma de la onda, se puede utilizar un filtro de fase no linear el cual representa una carga computacional menor y cumple con su tarea de una manera más eficiente que un filtro FIR para este caso particular.
 
