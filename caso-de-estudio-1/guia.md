@@ -6,7 +6,7 @@ Un proyector de film es un dispositivo opto-mecánico que se utiliza para reprod
 
 El cinematógrafo fue patentado en febrero de 1894 por los hermanos Lumière y las primeras exhibiciones públicas se realizaron en 1895. En la actualidad existen "proyectores cinematográficos digitales" que proyectan una imagen generada por medios digitales, sin hacer uso de una película, pero sí del haz de luz y de las lentes.
 
-![Proyector de 35mm](../.gitbook/assets/image%20%2884%29.png)
+![Proyector de 35mm](../.gitbook/assets/image%20%2889%29.png)
 
 De acuerdo con la teoría de la persistencia retiniana, el proceso perceptible del cerebro y la retina del ojo humano retiene una imagen durante un breve lapso de tiempo. Esta teoría explica como se percibe la ilusión del movimiento cuando una serie de imágenes se muestran en rápida sucesión, en lugar de percibir cada imagen individual de la serie.
 
@@ -45,7 +45,7 @@ Para realizar las cintas se crearon diferentes métodos  hasta llegar a la fotog
 
 "Los materiales utilizados para hacer la cinta o film son plata, ácido nítrico y gelatina. La base consiste en celulosa y solventes que se mezclan para formar un fluido espeso llamado dope. La película que se empaqueta en un casete \(la película de 35 milímetros generalmente se empaqueta de esta manera\) requiere un carrete de metal, el bote de metal protector y tiras de plástico en la abertura del bote donde emerge la película. El embalaje exterior también es aislante y protege la película de la exposición a la luz, el calor y el aire" . Para ver el proceso completo pueden acceder al link:
 
-{% embed data="{\"url\":\"http://www.madehow.com/Volume-2/Photographic-Film.html\",\"type\":\"link\",\"title\":\"How photographic film is made - material, manufacture, making, history, used, processing, parts, structure, procedure\",\"icon\":{\"type\":\"icon\",\"url\":\"http://www.madehow.com/favicon.ico\",\"aspectRatio\":0}}" %}
+{% embed url="http://www.madehow.com/Volume-2/Photographic-Film.html" %}
 
 
 
@@ -59,11 +59,11 @@ Las partes generales de un proyector de film son las que se pueden observar en l
 
 Para el funcionamiento de los lentes se utiliza un espejo cóncavo que invierta la luz producida por la lampara y la dirija al lente de condensación , este lente permite que la luz converja en un área especifica en este caso la dirige al fotograma de 35mm , la imagen pasa a través de una lente que se encarga de amplificarla. El sistema cuenta con un obturador que se encarga de controlar el tiempo en el que la imagen se proyecta de esta forma no se ve el desplazamiento entre fotogramas y la calidad de la imagen es mejor y mas agradable para el observador.
 
-![Sistema de lentes para la proyecci&#xF3;n de pel&#xED;culas de 35mm](../.gitbook/assets/image%20%2818%29.png)
+![Sistema de lentes para la proyecci&#xF3;n de pel&#xED;culas de 35mm](../.gitbook/assets/image%20%2819%29.png)
 
 El sistema mecánico esta compuesto por uno o varios rodillos conducidos , dependiendo del modelo pueden haber mas de un rodillo conductor y un sistema basado en una transmisión por correa para el enrollado de la cinta. Debido a que se debe desplazar una distancia exacta\(la medida de un fotograma 36mm\) cada cierto periodo de tiempo\(24 fps=0.041 segundos para cada fotograma \) esto se hace utilizando un sistema mecánico conocido como cruz de malta.
 
-![Mecanismo cruz de malta](../.gitbook/assets/image%20%2881%29.png)
+![Mecanismo cruz de malta](../.gitbook/assets/image%20%2886%29.png)
 
 Este sistema transforma un movimiento rotacional continuo a un movimiento rotacional pulsante o intermitente, de manera que los rodillos conductores están diseñados con unos pines que arrastran las perforaciones en la cinta y fueron diseñados para que 1/4 de vuelta del rodillo desplace la distancia de un fotograma, Lo que quiere decir que cada 4 vueltas del disco de freno son iguales a 1 vuelta del rodillo conductor\(contador intermitente\). 
 

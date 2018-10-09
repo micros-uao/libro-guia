@@ -8,13 +8,13 @@ Una onda sinusoidal es una señal analógica de una sola frecuencia. Los voltaje
 
 Propagación de una Onda: En el siguiente video se muestra en cámara lenta la propagación de una onda en una cuerda. En cámara lenta. Se puede observar que la forma de la onda es muy similar a la función que se muestra en la Ilustración 1. Se puede ver en el video que a medida que se desplaza la onda, su forma se mantiene. Esto significa que la evolución de la onda en el tiempo se puede representar por medio de una función de la forma f\(x ± v t\) donde v corresponde a la velocidad de desplazamiento de la onda. El signo será positivo o negativo dependiendo de la dirección de desplazamiento de la onda.
 
-{% embed data="{\"url\":\"https://www.youtube.com/watch?v=\_X72on6CSL0\",\"type\":\"video\",\"title\":\"Motion of  Plucked String\",\"description\":\"What happens to a string when it is plucked?\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.youtube.com/yts/img/favicon\_144-vfliLAfaB.png\",\"width\":144,\"height\":144,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://i.ytimg.com/vi/\_X72on6CSL0/mqdefault.jpg\",\"width\":320,\"height\":180,\"aspectRatio\":0.5625},\"embed\":{\"type\":\"player\",\"url\":\"https://www.youtube.com/embed/\_X72on6CSL0?rel=0&showinfo=0\",\"html\":\"<div style=\\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2493%;\\\"><iframe src=\\\"https://www.youtube.com/embed/\_X72on6CSL0?rel=0&amp;showinfo=0\\\" style=\\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\\" allowfullscreen scrolling=\\\"no\\\"></iframe></div>\",\"aspectRatio\":1.7778},\"caption\":\"\"}" %}
+{% embed url="https://www.youtube.com/watch?v=\_X72on6CSL0" caption="" %}
 
-![Posible forma de onda en una cuerda](../.gitbook/assets/image%20%2874%29.png)
+![Posible forma de onda en una cuerda](../.gitbook/assets/image%20%2879%29.png)
 
 También se puede observar en el video que cuando la onda alcanza el extremo fijo de la cuerda, esta es reflejada en dirección opuesta y con menor energía. Esto se debe a que parte de la energía de una onda se refleja otra se refracta cuando se presenta un cambio de medio. La velocidad a la que se propaga la onda en la cuerda depende de las propiedades físicas de la misma. De la misma manera ocurre con las señales de tensión o de corriente que se usan en electrónica para transmitir información. Cada medio de transmisión ofrece sus ventajas y desventajas las cuales se deben considerar dependiendo de la aplicación. Solo por citar algunos ejemplos se puede considerar los medios de transmisión que se presentan en la Ilustración 2. Por ejemplo, para el caso de cable coaxial o par trenzado existen ciertas frecuencias de ondas que no se podrán transmitir adecuadamente.
 
-![Algunos medios de transmisi&#xF3;n](../.gitbook/assets/image%20%2846%29.png)
+![Algunos medios de transmisi&#xF3;n](../.gitbook/assets/image%20%2848%29.png)
 
 ## Sistema
 
