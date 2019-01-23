@@ -8,7 +8,7 @@ Una onda sinusoidal es una señal analógica de una sola frecuencia. Los voltaje
 
 Propagación de una Onda: En el siguiente video se muestra en cámara lenta la propagación de una onda en una cuerda. En cámara lenta. Se puede observar que la forma de la onda es muy similar a la función que se muestra en la Ilustración 1. Se puede ver en el video que a medida que se desplaza la onda, su forma se mantiene. Esto significa que la evolución de la onda en el tiempo se puede representar por medio de una función de la forma f\(x ± v t\) donde v corresponde a la velocidad de desplazamiento de la onda. El signo será positivo o negativo dependiendo de la dirección de desplazamiento de la onda.
 
-{% embed url="https://www.youtube.com/watch?v=\_X72on6CSL0" caption="" %}
+{% embed url="https://www.youtube.com/watch?v=\_X72on6CSL0" caption="Vídeo del comportamiento de una cuerda cuando se le aplica una fuerza perpendicular" %}
 
 ![Posible forma de onda en una cuerda](../.gitbook/assets/image%20%2881%29.png)
 
