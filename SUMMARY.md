@@ -23,10 +23,6 @@
   * [5.1 Guía](caso-de-estudio-2/guia.md)
   * [5.2 Planos](caso-de-estudio-2/planos.md)
   * [5.3 Código](caso-de-estudio-2/codigo.md)
-* [6. Caso de Estudio 3](caso-de-estudio-3/README.md)
-  * [6.1 Guía](caso-de-estudio-3/guia.md)
-  * [6.2 Planos](caso-de-estudio-3/planos.md)
-  * [6.3Código](caso-de-estudio-3/codigo.md)
 * [6. Plataforma de apoyo para las practicas](plataforma-de-apoyo-para-las-practicas/README.md)
   * [6.1 Planos plataforma](plataforma-de-apoyo-para-las-practicas/planos-plataforma.md)
 * [7. Prácticas de laboratorio](practicas-de-laboratorio/README.md)
@@ -34,5 +30,4 @@
   * [7. Fase linear y no linear en filtros](practicas-de-laboratorio/fase-linear-y-no-linear-en-filtros.md)
   * [7. Retrasos en sistemas de control](practicas-de-laboratorio/retrasos-en-sistemas-de-control.md)
   * [7. Paso por valor y por referencia](practicas-de-laboratorio/paso-por-valor-y-por-referencia.md)
-  * [7. Punto fijo y punto flotante](practicas-de-laboratorio/punto-fijo-y-punto-flotante.md)
 
