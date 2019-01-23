@@ -1,4 +1,4 @@
-# 2.5 Muestreo y construcción
+# 2.4 Muestreo y construcción
 
 ![](../.gitbook/assets/image%20%2842%29.png)
 

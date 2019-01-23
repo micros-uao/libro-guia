@@ -1,4 +1,4 @@
-# 2.4 Fourier
+# 2.3 Fourier
 
 Uno de los métodos de movilización de la señal x\(t\) es bajo la forma de suma de componentes de distintas frecuencias, cada una con una fase inicial.
 
