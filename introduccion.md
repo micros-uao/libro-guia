@@ -23,3 +23,5 @@ Cuando una señal se propaga a través de un sistema genera un efecto en sus sal
 
 {% embed url="https://repl.it/@micros\_uao/SelfishDarksalmonThing" %}
 
+
+
