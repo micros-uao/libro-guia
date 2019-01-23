@@ -24,6 +24,9 @@ Los sistemas se pueden clasificar en estáticos o dinámicos en función de la d
 
 ![](../.gitbook/assets/image%20%2810%29.png)
 
-> 1. > 1. Alan v. Oppenheim. \(1998\). señales continuas y discretas. En señales y sistemas\(1-5\). Boston university: Pearson education.
-> 2.
+
+
+> 1.Alan v. Oppenheim. \(1998\). señales continuas y discretas. En señales y sistemas\(1-5\). Boston university: Pearson education.
+>
+> 2.Departamento de tecnología electrónica. Medios de transmisión. Universidad de Sevilla. &lt;[http://www.dte.us.es/personal/sivianes/tcomu/MediosTransmision.pdf](http://www.dte.us.es/personal/sivianes/tcomu/MediosTransmision.pdf)&gt;
 
