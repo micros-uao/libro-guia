@@ -4,7 +4,7 @@
 
 Las señales a procesar en los casos de las aplicaciones propuestas son de origen analógico, por tal razón es necesario convertirlas en un formato digital.
 
-![](../.gitbook/assets/image%20%2884%29.png)
+![](../.gitbook/assets/image%20%2885%29.png)
 
 ## Teorema del muestro
 
@@ -22,7 +22,7 @@ Uno de los métodos utilizados para realizar la representación de la magnitud a
 
 La relación señal / ruido de cuantificación \(SQNR, signal to quantization noise ratio\) proporciona la relación entre la potencia de la señal y la del ruido introducido por el proceso de cuantificación, esta se define como:
 
-![](../.gitbook/assets/image%20%2883%29.png)
+![](../.gitbook/assets/image%20%2884%29.png)
 
 Donde representa la cantidad de bits que se utilizan para representar la señal análoga en forma digital. Se puede apreciar que cada vez que se duplica el número de niveles de cuantificación \(se agrega un bit a la representación de la señal\), la SQNR aumenta aproximadamente 6 dB. Por lo cual, si se utiliza un conversor de 16 bits la SQNR será aproximadamente de 96 dB.
 

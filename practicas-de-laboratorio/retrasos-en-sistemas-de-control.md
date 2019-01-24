@@ -73,7 +73,7 @@ Se calcula el Ki y Kp para un tiempo de estabilización no mayor a 0.3 segundos 
 
 Y con el retraso propuesto de 3.33 segundos :
 
-![Respuesta en lazo cerrado sin retraso osea m=0.83335](../.gitbook/assets/image%20%2886%29.png)
+![Respuesta en lazo cerrado sin retraso osea m=0.83335](../.gitbook/assets/image%20%2887%29.png)
 
 Se puede observar que el retraso producido en la comunicación es suficiente para producir que se incumpla la restricción para el sobre-pico.
 

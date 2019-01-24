@@ -51,7 +51,7 @@ Con este sensor se puede medir la saturación de oxigeno arterial de una forma n
 
 Los rangos normales aceptables para los pacientes son del 95 al 99 por ciento, aquellos con un problema de impulsión hipóxica esperan que los valores estén entre el 88 y el 94 por ciento, los valores del 100 por ciento pueden indicar una intoxicación por monóxido de carbono.
 
-![Modo de uso del sensor de pulso y oxigeno](../.gitbook/assets/image%20%2887%29.png)
+![Modo de uso del sensor de pulso y oxigeno](../.gitbook/assets/image%20%2888%29.png)
 
 ### Electrocardiograma
 
@@ -71,7 +71,7 @@ Tomado de: An Approach for Classifying ECG Arrhythmia Based on Features Extracte
 
 Se conecta a la plataforma de la siguiente forma que indica la imagen, lo mismo para la conexión de los electrodos al cuerpo.
 
-![Esquema de conexiones para el ECG](../.gitbook/assets/image%20%2893%29.png)
+![Esquema de conexiones para el ECG](../.gitbook/assets/image%20%2894%29.png)
 
 ### Temperatura corporal
 
@@ -93,7 +93,7 @@ En el método de respuesta de conductancia de la piel, la conductividad de la pi
 
 El modo de uso es el siguiente:
 
-![Conexi&#xF3;n sensor galv&#xE1;nico](../.gitbook/assets/image%20%2885%29.png)
+![Conexi&#xF3;n sensor galv&#xE1;nico](../.gitbook/assets/image%20%2886%29.png)
 
 ### Electromiografia\(EMG\) 
 

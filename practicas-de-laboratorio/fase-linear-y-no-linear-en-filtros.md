@@ -42,7 +42,7 @@ En las siguientes figuras se puede observar la respuesta en magnitud\(dB\) y en 
 
 ![Respuesta en magnitud del filtro IIR](../.gitbook/assets/image%20%2867%29.png)
 
-![Respuesta en fase del filtro IIR](../.gitbook/assets/image%20%2882%29.png)
+![Respuesta en fase del filtro IIR](../.gitbook/assets/image%20%2883%29.png)
 
 Con los filtros creados se procede a mirar la respuesta de cada uno ante la señal ECG con el ruido de la red. En el siguiente gráfico se puede comparar la señal ECG pura y con ruido vs la señal filtrada utilizando el filtro con ventana haming y el filtro elíptico.
 
