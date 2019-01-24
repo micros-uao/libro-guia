@@ -21,7 +21,7 @@ El comportamiento de una señal dada puede catalogarse como transitorio o de est
 
 Cuando una señal se propaga a través de un sistema genera un efecto en sus salidas, transformación que depende de las características del sistema, las cuales, en el caso de sistemas lineales, están determinadas por su respuesta en amplitud y su respuesta en fase, las cuales indican la transformación que sufre un armónico al propagarse a través del sistema.
 
-{% embed url="https://repl.it/@micros\_uao/SelfishDarksalmonThing" %}
+{% embed url="https://repl.it/@micros\_uao/SelfishDarksalmonThing" caption="Ejemplo de filtro en python" %}
 
 
 
