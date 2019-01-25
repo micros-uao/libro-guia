@@ -35,6 +35,28 @@ Se clasifican de acuerdo a la variable independiente y los valores que esta tome
 
 ![Se&#xF1;al de ruido](../.gitbook/assets/image%20%2876%29.png)
 
+### Frecuencia en las señales continuas y discretas en el tiempo.
+
+La frecuencia está directamente relacionado con el concepto de tiempo, en el caso de una oscilación armónica simple se puede escribir matemáticamente una señal sinusoidal continua de la siguiente forma:
+
+$$
+X(t)= Acos( Ωt+ \theta)
+$$
+
+Con esta señal básica se puede observar sus parámetros de amplitud, frecuencia y fase. Se convierte la frecuencia de radianes a Hertz con la siguiente sustitución : 
+
+$$
+Ω = 2πF
+$$
+
+En el caso de una señal sin**u**soidal discreta en el tiempo la variable independiente es n que representa el número de muestra. Una función sinusoidal discreta se escribe de la siguiente manera:
+
+$$
+X(t)= Acos( 2πFn+ \theta)
+$$
+
+
+
 
 
 
