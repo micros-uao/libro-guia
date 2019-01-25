@@ -25,5 +25,5 @@ Se clasifican de acuerdo a la variable independiente y los valores que esta tome
 * Señales analógicas: Definidas en cada instante de tiempo y el intervalo de valores \[a,b\] es continuo, donde a puede ser -∞ y b puede ser ∞.  Se puede representar matemáticamente, un ejemplo es: $$x(t)=Sin(\pi t + \phi)$$ 
 * Señales discretas: Solo están definidas en determinados instantes  de tiempo. Una señal discreta se puede representar matemáticamente mediante una secuencia de números reales o complejos, un ejemplo: $$x(n)=0.8^n$$ 
 
-![Representaci&#xF3;n gr&#xE1;fica de la se&#xF1;al discreta propuesta](../.gitbook/assets/image%20%2882%29.png)
+![Representaci&#xF3;n gr&#xE1;fica de la se&#xF1;al discreta propuesta](../.gitbook/assets/image%20%2883%29.png)
 

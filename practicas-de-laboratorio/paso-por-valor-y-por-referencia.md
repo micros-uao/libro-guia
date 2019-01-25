@@ -8,7 +8,7 @@ Como se ha mencionado anteriormente en esta guía. Cuando se desarrolla un progr
 
 Sin embargo, esto hace el código menos eficiente ya que se debe dedicar instrucciones del procesador a hacer la copia de los datos. Por otro lado, si se usa un apuntador, ya no es necesario realizar esta copia ya que el apuntador indica directamente la posición en memoria de los datos por lo que se manipulan directamente dentro de la función. En este caso es mas eficiente porque no es necesario realizar una copia de los datos, pero el inconveniente es que se corre el riesgo de perder los datos originales. Para comparar el tiempo de ejecución de ambas alternativas se usó un ATmega162. Este microcontrolador se configuro para usar una señal de reloj externa, la cual se generó con un circuito externo.
 
-![Hardware empleado para comparar el tiempo de ejecuci&#xF3;n ](../.gitbook/assets/image%20%2825%29.png)
+![Hardware empleado para comparar el tiempo de ejecuci&#xF3;n ](../.gitbook/assets/image%20%2826%29.png)
 
 A continuación, se muestra el programa usado para el ATmega162. Dentro del ciclo while hay un if-else que decise si se ejecuta una función de prueba pasando directamente un arreglo o su correspondiente apuntador. Como se puede ver en la Ilustración 40 que hay un pulsador conectado a una de las entradas digitales del ATmega162. Esta entrada digital es la que es verificada en el if-else para decidir que función se ejecuta. Para medir el tiempo de ejecución se hace la articulación de una de las salidas digitales.
 

@@ -4,7 +4,7 @@
 
 Las señales a procesar en los casos de las aplicaciones propuestas son de origen analógico, por tal razón es necesario convertirlas en un formato digital.
 
-![](../.gitbook/assets/image%20%2885%29.png)
+![](../.gitbook/assets/image%20%2886%29.png)
 
 ## Teorema del muestro
 
@@ -22,7 +22,7 @@ Uno de los métodos utilizados para realizar la representación de la magnitud a
 
 La relación señal / ruido de cuantificación \(SQNR, signal to quantization noise ratio\) proporciona la relación entre la potencia de la señal y la del ruido introducido por el proceso de cuantificación, esta se define como:
 
-![](../.gitbook/assets/image%20%2884%29.png)
+![](../.gitbook/assets/image%20%2885%29.png)
 
 Donde representa la cantidad de bits que se utilizan para representar la señal análoga en forma digital. Se puede apreciar que cada vez que se duplica el número de niveles de cuantificación \(se agrega un bit a la representación de la señal\), la SQNR aumenta aproximadamente 6 dB. Por lo cual, si se utiliza un conversor de 16 bits la SQNR será aproximadamente de 96 dB.
 
@@ -40,7 +40,7 @@ Al comparar las representación en punto fijo y punto flotante se obtienen las s
 
 La forma general de la relación de entrada-salida en un sistema Lineal e Invariante con el Tiempo \(LTI\) es la siguiente:
 
-![](../.gitbook/assets/image%20%2877%29.png)
+![](../.gitbook/assets/image%20%2878%29.png)
 
 Siendo x,y la entrada y salida del sistema respectivamente, a y b  los coeficientes de la función de transferencia que relaciona la salida y la entrada del sistema.
 
@@ -65,7 +65,7 @@ La forma en cascada es más robusta ante la presencia de cuantificación de los 
 
 La estructura en cascada se obtiene factorizando la respuesta impulsional H\(z\)
 
-![Estructura de sistemas discretos en forma de cascada](../.gitbook/assets/image%20%2832%29.png)
+![Estructura de sistemas discretos en forma de cascada](../.gitbook/assets/image%20%2833%29.png)
 
 
 
