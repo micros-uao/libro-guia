@@ -67,7 +67,7 @@ Para sinusoidales discretas en el tiempo se puede decir que : Si su frecuencia e
 
 ![Oscilaciones de una se&#xF1;al sinusoidal b&#xE1;sica](../.gitbook/assets/image%20%2848%29.png)
 
-
+> 1.  John G. Proakis Dimitris G. Manolakis. \(2007\). Tratamiento Digital de Señales. Madrid: Pearson Educación .
 
 
 
