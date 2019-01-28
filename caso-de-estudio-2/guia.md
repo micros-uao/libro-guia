@@ -41,7 +41,7 @@ Para el caso de estudio 2 se utilizó el kit e-Health Sensor Platform V2.0 el cu
 
 ![e-Health Sensor Platform V2.0 for Arduino and Raspberry Pi](../.gitbook/assets/image%20%2814%29.png)
 
-![Esquema de conexiones a la plataforma](../.gitbook/assets/image%20%2863%29.png)
+![Esquema de conexiones a la plataforma](../.gitbook/assets/image%20%2864%29.png)
 
 La practica solo se va a enfocar en las señales de SpO2 y pulsioximetro,  ECG, temperatura, Galvánica y EMG . 
 
@@ -51,7 +51,7 @@ Con este sensor se puede medir la saturación de oxigeno arterial de una forma n
 
 Los rangos normales aceptables para los pacientes son del 95 al 99 por ciento, aquellos con un problema de impulsión hipóxica esperan que los valores estén entre el 88 y el 94 por ciento, los valores del 100 por ciento pueden indicar una intoxicación por monóxido de carbono.
 
-![Modo de uso del sensor de pulso y oxigeno](../.gitbook/assets/image%20%2892%29.png)
+![Modo de uso del sensor de pulso y oxigeno](../.gitbook/assets/image%20%2893%29.png)
 
 ### Electrocardiograma
 
@@ -65,13 +65,13 @@ Con el ECG se puede medir la orientación del corazón en la cavidad torácica, 
 
 En la siguiente imagen se puede observar la forma de una señal ECG normal y como se divide en diferentes tramos donde cada uno indica un movimiento particular del corazón.  
 
-![Representaci&#xF3;n de una se&#xF1;al ECG normal](../.gitbook/assets/image%20%2871%29.png)
+![Representaci&#xF3;n de una se&#xF1;al ECG normal](../.gitbook/assets/image%20%2872%29.png)
 
 Tomado de: An Approach for Classifying ECG Arrhythmia Based on Features Extracted from EMD and Wavelet Packet Domains
 
 Se conecta a la plataforma de la siguiente forma que indica la imagen, lo mismo para la conexión de los electrodos al cuerpo.
 
-![Esquema de conexiones para el ECG](../.gitbook/assets/image%20%2898%29.png)
+![Esquema de conexiones para el ECG](../.gitbook/assets/image%20%2899%29.png)
 
 ### Temperatura corporal
 
@@ -83,7 +83,7 @@ Es de gran importancia médica medir la temperatura corporal. La razón es que v
 
 Para conectar el sensor de temperatura se conecta el jack a la tarjeta en la entrada de temperatura y se amarra al dedo indice como se indica en la siguiente imagen.
 
-![Conexi&#xF3;n del sensor de temperatura](../.gitbook/assets/image%20%2852%29.png)
+![Conexi&#xF3;n del sensor de temperatura](../.gitbook/assets/image%20%2853%29.png)
 
 ### Galvánico o conductancia de la piel
 
@@ -93,7 +93,7 @@ En el método de respuesta de conductancia de la piel, la conductividad de la pi
 
 El modo de uso es el siguiente:
 
-![Conexi&#xF3;n sensor galv&#xE1;nico](../.gitbook/assets/image%20%2890%29.png)
+![Conexi&#xF3;n sensor galv&#xE1;nico](../.gitbook/assets/image%20%2891%29.png)
 
 ### Electromiografia\(EMG\) 
 

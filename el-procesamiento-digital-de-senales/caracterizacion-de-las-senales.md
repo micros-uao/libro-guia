@@ -25,15 +25,15 @@ Se clasifican de acuerdo a la variable independiente y los valores que esta tome
 * Señales analógicas: Definidas en cada instante de tiempo y el intervalo de valores \[a,b\] es continuo, donde a puede ser -∞ y b puede ser ∞.  Se puede representar matemáticamente, un ejemplo es: $$x(t)=Sin(\pi t + \phi)$$ 
 * Señales discretas: Solo están definidas en determinados instantes  de tiempo. Una señal discreta se puede representar matemáticamente mediante una secuencia de números reales o complejos, un ejemplo: $$x(n)=0.8^n$$ 
 
-![Representaci&#xF3;n gr&#xE1;fica de la se&#xF1;al discreta propuesta](../.gitbook/assets/image%20%2885%29.png)
+![Representaci&#xF3;n gr&#xE1;fica de la se&#xF1;al discreta propuesta](../.gitbook/assets/image%20%2886%29.png)
 
 * Señales deterministas ,cualquier señal que se pueda escribir mediante una expresión matemática explicita, una tabla de datos o una regla definida.
 
-![Se&#xF1;al seno](../.gitbook/assets/image%20%2886%29.png)
+![Se&#xF1;al seno](../.gitbook/assets/image%20%2887%29.png)
 
 * Señales aleatorias, no se pueden describir con formulas matemáticas con una grado de precisión razonable o resulta demasiado complejo llegar a un modelo con tal precisión. Evolucionan en el tiempo de una manera no predecible.
 
-![Se&#xF1;al de ruido](../.gitbook/assets/image%20%2876%29.png)
+![Se&#xF1;al de ruido](../.gitbook/assets/image%20%2877%29.png)
 
 ### Frecuencia en las señales continuas y discretas en el tiempo.
 
@@ -49,19 +49,23 @@ $$
 Ω = 2πF
 $$
 
+De acuerdo al ejemplo anterior se puede decir que para valores de frecuencia fijo la señal es periódica ,  las señales sinusoidales con frecuencias diferentes son diferentes , incrementar la frecuencia da como resultado un mayor numero de oscilaciones en un periodo de tiempo dado.
+
+Con la identidad de Euler se puede relacionar la señal sinusoidal anterior con exponenciales complejas de la siguiente forma.
+
+$$
+X(t)=Acos( Ωt+ \theta)= \\ \frac A 2 e^{j( Ωt+ \theta)}+\frac A 2 e^{-j( Ωt+ \theta)}
+$$
+
 En el caso de una señal sin**u**soidal discreta en el tiempo la variable independiente es n que representa el número de muestra. Una función sinusoidal discreta se escribe de la siguiente manera:
 
 $$
 X(t)= Acos( 2πFn+ \theta)
 $$
 
+Para sinusoidales discretas en el tiempo se puede decir que : Si su frecuencia es un número racional  la señal es periódica en el tiempo, las señales sinusoidales discretas en el tiempo con frecuencias separadas por múltiplos enteros de 2π son idénticas, la tasa de oscilación mas alta de una señal sinusoidal discreta se alcanza con $$ F=\frac 1 2 $$ o $$\ w=π.$$ 
 
-
-
-
-
-
-
+![Oscilaciones de una se&#xF1;al sinusoidal b&#xE1;sica](../.gitbook/assets/image%20%2848%29.png)
 
 
 
