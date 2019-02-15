@@ -1,4 +1,4 @@
-# 5.1 Guía
+# 3.2.1 Guía
 
 ## Monitor de signos vitales 
 
@@ -29,19 +29,19 @@ Estos monitores proveen módulos independientes para cada uno de los parámetros
   * Adulto/Pediátrico: Por lo general se usa en áreas criticas y su aplicación especifica la determina los consumibles que utilice como electrodos, brazaletes, sensores, etc...
   * Neonatal: Cuenta con sistemas mas especializados para llevar el control de la temperatura, respiración , balance de fluidos, electrolitos y un algoritmo especializado en neonatos para la detección de arritmias especificas debido a los delgados complejos QRS y las altas frecuencias cardíacas.
 
-![Monitor de signos vitales fijo](../.gitbook/assets/image%20%2811%29.png)
+![Monitor de signos vitales fijo](../../.gitbook/assets/image%20%2811%29.png)
 
 * Transporte:
   * Intrahospitalario: Utilizados para monitorear un paciente en su traslado de un area a otra dentro de la misma institución de salud, se sugiere que monitoricen ECG, SpO2, PNI y un registrador integrado. Debe tener una batería integrada con duración de al menos 2.5 horas
   * Interhospitalario: Utilizados en el transporte del paciente de una institución de salud a otra, tienen que tener los mismos parámetros sugeridos para el monitor intrahospitalario pero ademas se sugiere que tenga conexión de 12V para conectarse a la ambulancia. 
 
-![Monitor de signos vitales portable](../.gitbook/assets/image%20%2812%29.png)
+![Monitor de signos vitales portable](../../.gitbook/assets/image%20%2812%29.png)
 
 Para el caso de estudio 2 se utilizó el kit e-Health Sensor Platform V2.0 el cual permite realizar aplicaciones donde se necesita monitorizar el cuerpo. Posee  10 sensores diferentes: pulso, oxígeno en la sangre \(SPO2\), flujo de aire \(respiración\), temperatura corporal, electrocardiograma \(ECG\), glucómetro, respuesta galvánica de la piel \(GSR - sudoración\), presión arterial \(esfigmomanómetro\), posición del paciente \(acelerómetro\) y sensor de musculación / eletromiografía \(EMG\).
 
-![e-Health Sensor Platform V2.0 for Arduino and Raspberry Pi](../.gitbook/assets/image%20%2814%29.png)
+![e-Health Sensor Platform V2.0 for Arduino and Raspberry Pi](../../.gitbook/assets/image%20%2814%29.png)
 
-![Esquema de conexiones a la plataforma](../.gitbook/assets/image%20%2864%29.png)
+![Esquema de conexiones a la plataforma](../../.gitbook/assets/image%20%2865%29.png)
 
 La practica solo se va a enfocar en las señales de SpO2 y pulsioximetro,  ECG, temperatura, Galvánica y EMG . 
 
@@ -51,7 +51,7 @@ Con este sensor se puede medir la saturación de oxigeno arterial de una forma n
 
 Los rangos normales aceptables para los pacientes son del 95 al 99 por ciento, aquellos con un problema de impulsión hipóxica esperan que los valores estén entre el 88 y el 94 por ciento, los valores del 100 por ciento pueden indicar una intoxicación por monóxido de carbono.
 
-![Modo de uso del sensor de pulso y oxigeno](../.gitbook/assets/image%20%2893%29.png)
+![Modo de uso del sensor de pulso y oxigeno](../../.gitbook/assets/image%20%2894%29.png)
 
 ### Electrocardiograma
 
@@ -65,13 +65,13 @@ Con el ECG se puede medir la orientación del corazón en la cavidad torácica, 
 
 En la siguiente imagen se puede observar la forma de una señal ECG normal y como se divide en diferentes tramos donde cada uno indica un movimiento particular del corazón.  
 
-![Representaci&#xF3;n de una se&#xF1;al ECG normal](../.gitbook/assets/image%20%2872%29.png)
+![Representaci&#xF3;n de una se&#xF1;al ECG normal](../../.gitbook/assets/image%20%2873%29.png)
 
 Tomado de: An Approach for Classifying ECG Arrhythmia Based on Features Extracted from EMD and Wavelet Packet Domains
 
 Se conecta a la plataforma de la siguiente forma que indica la imagen, lo mismo para la conexión de los electrodos al cuerpo.
 
-![Esquema de conexiones para el ECG](../.gitbook/assets/image%20%2899%29.png)
+![Esquema de conexiones para el ECG](../../.gitbook/assets/image%20%28100%29.png)
 
 ### Temperatura corporal
 
@@ -83,7 +83,7 @@ Es de gran importancia médica medir la temperatura corporal. La razón es que v
 
 Para conectar el sensor de temperatura se conecta el jack a la tarjeta en la entrada de temperatura y se amarra al dedo indice como se indica en la siguiente imagen.
 
-![Conexi&#xF3;n del sensor de temperatura](../.gitbook/assets/image%20%2853%29.png)
+![Conexi&#xF3;n del sensor de temperatura](../../.gitbook/assets/image%20%2854%29.png)
 
 ### Galvánico o conductancia de la piel
 
@@ -93,7 +93,7 @@ En el método de respuesta de conductancia de la piel, la conductividad de la pi
 
 El modo de uso es el siguiente:
 
-![Conexi&#xF3;n sensor galv&#xE1;nico](../.gitbook/assets/image%20%2891%29.png)
+![Conexi&#xF3;n sensor galv&#xE1;nico](../../.gitbook/assets/image%20%2892%29.png)
 
 ### Electromiografia\(EMG\) 
 
@@ -107,5 +107,5 @@ Este sensor medirá la actividad eléctrica filtrada y rectificada de un múscul
 
 En la siguiente imagen se puede observar la forma de conexión a la plataforma y al brazo para sensar la actividad del bíceps. Se utilizan electrodos para realizar la conexión directamente al brazo.
 
-![Conexi&#xF3;n para medir la se&#xF1;al EMG del b&#xED;ceps](../.gitbook/assets/image%20%2842%29.png)
+![Conexi&#xF3;n para medir la se&#xF1;al EMG del b&#xED;ceps](../../.gitbook/assets/image%20%2843%29.png)
 

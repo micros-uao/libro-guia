@@ -1,4 +1,4 @@
-# 4.1 Guía
+# 3.1.1 Guía
 
 ## PROYECTOR CINEMATOGRÁFICO
 
@@ -6,7 +6,7 @@ Un proyector de film es un dispositivo opto-mecánico que se utiliza para reprod
 
 El cinematógrafo fue patentado en febrero de 1894 por los hermanos Lumière y las primeras exhibiciones públicas se realizaron en 1895. En la actualidad existen "proyectores cinematográficos digitales" que proyectan una imagen generada por medios digitales, sin hacer uso de una película, pero sí del haz de luz y de las lentes.
 
-![Proyector de 35mm](../.gitbook/assets/image%20%2897%29.png)
+![Proyector de 35mm](../../.gitbook/assets/image%20%2898%29.png)
 
 De acuerdo con la teoría de la persistencia retiniana, el proceso perceptible del cerebro y la retina del ojo humano retiene una imagen durante un breve lapso de tiempo. Esta teoría explica como se percibe la ilusión del movimiento cuando una serie de imágenes se muestran en rápida sucesión, en lugar de percibir cada imagen individual de la serie.
 
@@ -51,19 +51,19 @@ Para realizar las cintas se crearon diferentes métodos  hasta llegar a la fotog
 
 Las medidas utilizadas para un fotograma de un film de 35mm son las siguiente: 
 
-![Medidas de un fotograma para film 35mm](../.gitbook/assets/image.png)
+![Medidas de un fotograma para film 35mm](../../.gitbook/assets/image.png)
 
 Las partes generales de un proyector de film son las que se pueden observar en la siguiente imagen:
 
-![Proyector de film b&#xE1;sico ](../.gitbook/assets/sin-titulo.png)
+![Proyector de film b&#xE1;sico ](../../.gitbook/assets/sin-titulo.png)
 
 Para el funcionamiento de los lentes se utiliza un espejo cóncavo que invierta la luz producida por la lampara y la dirija al lente de condensación , este lente permite que la luz converja en un área especifica en este caso la dirige al fotograma de 35mm , la imagen pasa a través de una lente que se encarga de amplificarla. El sistema cuenta con un obturador que se encarga de controlar el tiempo en el que la imagen se proyecta de esta forma no se ve el desplazamiento entre fotogramas y la calidad de la imagen es mejor y mas agradable para el observador.
 
-![Sistema de lentes para la proyecci&#xF3;n de pel&#xED;culas de 35mm](../.gitbook/assets/image%20%2820%29.png)
+![Sistema de lentes para la proyecci&#xF3;n de pel&#xED;culas de 35mm](../../.gitbook/assets/image%20%2820%29.png)
 
 El sistema mecánico esta compuesto por uno o varios rodillos conducidos , dependiendo del modelo pueden haber mas de un rodillo conductor y un sistema basado en una transmisión por correa para el enrollado de la cinta. Debido a que se debe desplazar una distancia exacta\(la medida de un fotograma 36mm\) cada cierto periodo de tiempo\(24 fps=0.041 segundos para cada fotograma \) esto se hace utilizando un sistema mecánico conocido como cruz de malta.
 
-![Mecanismo cruz de malta](../.gitbook/assets/image%20%2894%29.png)
+![Mecanismo cruz de malta](../../.gitbook/assets/image%20%2895%29.png)
 
 Este sistema transforma un movimiento rotacional continuo a un movimiento rotacional pulsante o intermitente, de manera que los rodillos conductores están diseñados con unos pines que arrastran las perforaciones en la cinta y fueron diseñados para que 1/4 de vuelta del rodillo desplace la distancia de un fotograma, Lo que quiere decir que cada 4 vueltas del disco de freno son iguales a 1 vuelta del rodillo conductor\(contador intermitente\). 
 

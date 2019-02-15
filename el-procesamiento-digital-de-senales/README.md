@@ -1,4 +1,4 @@
-# 2. El procesamiento digital de señales
+# 2. Aspectos a considerar en el desarrollo de aplicaciones de DSP
 
 Cuando se realiza cualquier proceso digital para modificar la representación digital de una señal se esta haciendo procesado digital. Como proceso digital puede ser desde el más sencillo realizado por una puerta lógica al más complejo realizado por un circuito especifico de procesador digital de señales \(DSP\). Cuando hablamos de proceso digital nos estamos refiriendo habitualmente a un programa que funciona en un PC, microcontrolador, DSP o dispositivos de lógica programable. 
 

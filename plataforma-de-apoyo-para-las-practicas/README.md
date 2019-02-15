@@ -1,4 +1,4 @@
-# 6. Plataforma de apoyo para las practicas
+# 4. Plataforma de apoyo para las practicas
 
 
 

@@ -1,4 +1,4 @@
-# 7. Retrasos en sistemas de control
+# El efecto de los retrasos de tiempo el algoritmos realimentados, tomando como caso particular el a
 
 En los sistemas de control se han analizado diferentes algoritmos de control usando protocolos de red con retrasos constantes y variables. Sin embargo no existe una técnica para cualquier sistema de control debido que depende de la configuración de la red, el protocolo de comunicaciones, las aproximaciones que se hagan del sistema y el algoritmo de control.
 
@@ -15,11 +15,11 @@ El NCS considerado presenta las siguientes suposiciones:
 
 Entonces el sistema de control en lazo cerrado se representa de la siguiente forma:
 
-![Diagrama de bloque del sistema a trabajar](../.gitbook/assets/image%20%2832%29.png)
+![Diagrama de bloque del sistema a trabajar](../.gitbook/assets/image%20%2833%29.png)
 
 Debido a que el sistema esta sincronizado se puede considerar los retrasos en el sistema como un solo retraso:
 
-![Diagrama de bloque simplificado del sistema a trabajar](../.gitbook/assets/image%20%2866%29.png)
+![Diagrama de bloque simplificado del sistema a trabajar](../.gitbook/assets/image%20%2867%29.png)
 
 El retraso se puede modelar como $$ e^{-TrS}$$, con $$ T_r=(1-m)T_s$$. Donde $$ T_r$$ representa la suma de los retrasos entre medidor\_controlador y controlador-actuador y m es un valor que representa el porcentaje del tiempo de muestreo al que equivale el tiempo de retraso.
 
@@ -47,7 +47,7 @@ $$
 
 Para este caso se caracterizo un motor DC el cual se aproximo a una planta de primer orden para los fines de esta practica.
 
-![Respuesta en voltaje ante una entrada de 1v DC](../.gitbook/assets/image%20%2839%29.png)
+![Respuesta en voltaje ante una entrada de 1v DC](../.gitbook/assets/image%20%2840%29.png)
 
 La función de transferencia encontrada es la siguiente:
 
@@ -69,17 +69,17 @@ $$
 
 Se calcula el Ki y Kp para un tiempo de estabilización no mayor a 0.3 segundos y un sobrepico menor al 10%. Con lo cual se obtuvo kp=4.266 y ki=51.39. La respuesta del sistema discreto cuando no hay retraso es:
 
-![Respuesta en lazo cerrado sin retraso osea m=1](../.gitbook/assets/image%20%2884%29.png)
+![Respuesta en lazo cerrado sin retraso osea m=1](../.gitbook/assets/image%20%2885%29.png)
 
 Y con el retraso propuesto de 3.33 segundos :
 
-![Respuesta en lazo cerrado sin retraso osea m=0.83335](../.gitbook/assets/image%20%2892%29.png)
+![Respuesta en lazo cerrado sin retraso osea m=0.83335](../.gitbook/assets/image%20%2893%29.png)
 
 Se puede observar que el retraso producido en la comunicación es suficiente para producir que se incumpla la restricción para el sobre-pico.
 
 Analizando un caso extremo donde el sistema tenga un retraso igual al tiempo de muestreo osea m=0, se observa la siguiente respuesta:
 
-![Respuesta en lazo cerrado sin retraso osea m=0](../.gitbook/assets/image%20%2863%29.png)
+![Respuesta en lazo cerrado sin retraso osea m=0](../.gitbook/assets/image%20%2864%29.png)
 
 Se puede observar que el sistema presenta un sobre-pico mucho mas pronunciado y que tarda ,mas de 1 segundo en estabilizarse. Estos comportamientos no son permitidos al momento de implementar un proceso industrial. 
 
@@ -93,5 +93,5 @@ El sistema se comporta de una forma muy aproximada a la simulación que se hizo 
 
 Los Códigos en arduino y simulaciones en simulink se pueden encontrar en el siguiente link, tener en cuenta que para que funcione el archivo de simulink primero se debe correr el código de matlab que se llama región de estabilidad :
 
-{% embed url="https://github.com/micros-uao/codigos/tree/master/Retrasos%20en%20sistemas%20de%20control " %}
+{% embed url="https://github.com/micros-uao/codigos/tree/master/Retrasos%20en%20sistemas%20de%20control" %}
 
