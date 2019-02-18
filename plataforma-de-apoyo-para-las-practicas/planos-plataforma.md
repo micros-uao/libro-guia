@@ -31,3 +31,29 @@ Con base en los requisitos establecidos y las características de los entornos d
 
 Como computadora de placa reducida se seleccionó una Raspberry pi3, como microcontrolador un Cortex 3 implementado en la tarjeta Arduino DUE y como FPGA la Artix-7 35T de Xilinx. Además de los requisitos propuestos, estas plataformas soportan distintos protocolos de comunicaciones \(Ethernet, Bluetooth, Zigbee, CAN, SPI, I2C\) y periféricos para procesamiento de audio y video \(micrófono, parlante, cámara, pantallas\), entre otros; que facilitan el desarrollo de aplicaciones que involucren otras áreas \(como por ejemplo telecomunicaciones, control, informática, instrumentación, etc.\), contribuyendo en los procesos de aprendizaje a la integración de disciplinas y a los estudiantes a la integración de conocimientos a través de una misma plataforma. Lo cual no siempre se logra en los procesos en los que se tienen plataformas específicas para cada área que dificultan no solo el conocimiento de los diferentes entornos de desarrollo, sino también la integración de los conceptos por parte del estudiante en el abordaje de soluciones a problemas, los cuales cada vez más demandan este tipo de integraciones.
 
+Para el  proceso de ensamblaje de la plataforma primero se debe imprimir 5 piezas en plástico o el material con el que se desee imprimir las piezas haciendo uso de las tecnologías de impresión 3D actuales, también se debe cortar algunas piezas en acrílico u otro material, importante tener en cuenta que el diseño se realizó con acrílico de 5.5 mm de espesor. Se procede a ensamblar , primero se unen las piezas que se muestran en la imagen y se utilizan tornillos y tuercas para fijarlas.
+
+![](../.gitbook/assets/paso1.PNG)
+
+Después se procede a agregar los bordes de los extremos y se fijan con tornillos y tuercas igualmente.
+
+![](../.gitbook/assets/paso2.PNG)
+
+Luego se pone la pieza lateral que se observa en la imagen y se disponen las 2 tarjetas que se muestran de la siguiente forma. 
+
+![](../.gitbook/assets/paso3.PNG)
+
+El siguiente paso se aseguran las tarjetas haciendo uso de la pieza lateral derecha según la orientación que se viene manejando en las imágenes. Esto lo podemos observar en la siguiente imagen. 
+
+![](../.gitbook/assets/paso4.PNG)
+
+Por ultimo se cubren las tarjetas insertando 2 piezas de acrílico en las ranuras que se pueden ver en los extremos del ensamble y en el centro del mismo, se dispone una pieza especifica para cada tarjeta. 
+
+![](../.gitbook/assets/paso5.PNG)
+
+Las piezas en formato compatible con solidworks se encuentran en el siguiente link al repositorio.
+
+{% embed url="https://github.com/micros-uao/codigos/tree/master/version%20para%20manufactura" %}
+
+
+
