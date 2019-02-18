@@ -4,7 +4,7 @@ Una señal se puede definir como una secuencia de valores asociados a una magnit
 
 Algunos ejemplos de señales y aplicaciones de su procesamiento son los siguientes:
 
-![The Scientish and Engineer&#x2019;s Guide to Digital Signal Processing. SW Smith.](.gitbook/assets/image%20%2863%29.png)
+![The Scientish and Engineer&#x2019;s Guide to Digital Signal Processing. SW Smith.](.gitbook/assets/image%20%2866%29.png)
 
 Ventajas del procesamiento digital de señales respecto al procesamiento analógico de señales:
 
@@ -17,7 +17,7 @@ Ventajas del procesamiento digital de señales respecto al procesamiento analóg
 
 El comportamiento de una señal dada puede catalogarse como transitorio o de estado estacionario. Una señal en estado estacionario exhibe periodicidad y por tanto puede ser considerada como el resultado de la suma de funciones periódicas. En el siguiente gráfico se puede observar una señal la cual se reconstruye con sus primeros armónicos, con esto se puede aclarar el concepto de que una señal periódica se puede representar por la suma infinita de sus componentes armónicas y que entre mayor numero de armónicos se use para reconstruir la señal mayor va a ser la aproximación a la señal original.
 
-![Se&#xF1;al descompuesta en sus primeros 3 arm&#xF3;nicos ](.gitbook/assets/image%20%2899%29.png)
+![Se&#xF1;al descompuesta en sus primeros 3 arm&#xF3;nicos ](.gitbook/assets/image%20%28103%29.png)
 
 Cuando una señal se propaga a través de un sistema genera un efecto en sus salidas, transformación que depende de las características del sistema, las cuales, en el caso de sistemas lineales, están determinadas por su respuesta en amplitud y su respuesta en fase, las cuales indican la transformación que sufre un armónico al propagarse a través del sistema.
 
@@ -29,7 +29,7 @@ $$
 x(n)=x_a(nT)
 $$
 
-![Se&#xF1;al muestreada peri&#xF3;dicamente cada T segundos](.gitbook/assets/image%20%2845%29.png)
+![Se&#xF1;al muestreada peri&#xF3;dicamente cada T segundos](.gitbook/assets/image%20%2847%29.png)
 
 ### Teorema del muestreo
 
@@ -43,7 +43,7 @@ En procesamiento de señales, el aliasing es el efecto que causa que señales co
 
 El aliasing es un motivo de preocupación mayor en lo que concierne a la conversión analógica-digital de señales de audio y vídeo: el muestreo incorrecto de señales analógicas puede provocar que señales de alta frecuencia presenten dicho aliasing con respecto a señales de baja frecuencia. El aliasing es también una preocupación en el área de la computación gráfica e infografía, donde puede dar origen a patrones de moiré \(en las imágenes con muchos detalles finos\) y también a bordes dentados.
 
-![Aliasing al muestrear una se&#xF1;al](.gitbook/assets/image%20%2844%29.png)
+![Aliasing al muestrear una se&#xF1;al](.gitbook/assets/image%20%2846%29.png)
 
 Un ejemplo de código donde se puede observar una aplicación de procesamiento digital de señales es el siguiente cogido donde se implementan unos filtros diseñados en Python.
 
